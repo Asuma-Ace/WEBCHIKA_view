@@ -1,0 +1,2 @@
+$('#page-link a[href*="#"]').click((function(){var e=$(this).attr("href");if(window.matchMedia("(min-width: 769px)").matches)var t=$(e).offset().top-80;else t=$(e).offset().top-60;return $("body,html").animate({scrollTop:t},500),!1})),$(".j-header_btn").click((function(){$(".l-header").toggleClass("active")})),$("#page-link a").click((function(){$(".l-header").removeClass("active")})),$((function(){(new WOW).init()}));
+//# sourceMappingURL=script.js.map
